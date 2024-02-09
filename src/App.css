@@ -1,0 +1,28 @@
+.app {
+  text-align: center;
+  margin-top: 50px;
+}
+
+input {
+  padding: 10px;
+  margin-bottom: 20px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.emoji-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.emoji {
+  font-size: 24px;
+  margin: 5px;
+  cursor: pointer;
+}
+
+.emoji:hover {
+  transform: scale(1.2);
+}
